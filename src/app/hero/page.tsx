@@ -16,7 +16,7 @@ const HeroPage = () => {
       <div className="custom-gradient w-full h-screen absolute top-0 z-20 left-0"></div>
       <div className="hero-section w-full h-screen flex justify-center items-end absolute top-0 z-10 left-0">
         <div className="w-[90%] h-auto flex gap-4 items-center">
-          <div className="content w-1/2 flex flex-col gap-3 h-auto pl-5 justify-center">
+          <div className="content w-1/2 flex flex-col gap-3 mt-20 h-auto pl-5 justify-center">
             <h1 className="text-8xl font-normal leading-28 text-primary">
               Discover the Magic of Chai
             </h1>
