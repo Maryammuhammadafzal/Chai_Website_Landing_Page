@@ -16,8 +16,8 @@ const AboutPage = () => {
             hearts and creates stories. Join us on a flavorful journey and
             explore the essence of authentic chai.
           </p>
-          <div className="py-4 flex">
-           
+          <div className="py-4 flex gap-3 items-center">
+           <div className="flex flex-col justify-center"></div>
           </div>
         </div>
         <div className="content w-1/2 flex h-auto justify-center items-end">
