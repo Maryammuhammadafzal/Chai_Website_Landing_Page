@@ -1,16 +1,31 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins, Geist_Mono } from "next/font/google";
+// import localFont from "next/font/local";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+import HeroPage from './hero/page'
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
+  weight: ['100' , '200' , '300' , '400' , '500' , '600' , '700' , '800' , '900'],
+  display: 'swap'
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+// const advanced_pixel_lcd = localFont({
+//   src: [
+//     {
+//       path: "../public/fonts/advanced_pixel/advanced_pixel_lcd-7.ttf",
+//       weight: "400",
+//       style: "normal",
+//     },
+//   ],
+//   variable: "--font-advanced-pixel-lcd",
+// });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,9 +39,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link href="https://fonts.cdnfonts.com/css/marlos" rel="stylesheet"></link>
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.variable} ${geistMono.variable} antialiased`}
       >
+        <HeroPage/>
         {children}
       </body>
     </html>
