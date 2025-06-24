@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const Header = () => {
-  let nav_data = [
+  const nav_data = [
     {
       name: "Home",
       link: "/",

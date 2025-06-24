@@ -26,7 +26,7 @@ const HeroPage = () => {
             <p className="text-base max-w-xl font-normal text-primary font-sans">
               Welcome to [Your Brand Name], where every sip tells a story.
               Rooted in tradition and steeped in love, our chai blends are more
-              than just a beverage—they're an experience.
+              than just a beverage—theyre an experience.
             </p>
             <div className="py-4"><Button className="bg-secondary capitalize text-2xl py-6 px-8" >Try It Now</Button></div>
           </div>
