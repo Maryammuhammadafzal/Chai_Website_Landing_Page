@@ -41,7 +41,7 @@ const Header = () => {
               <li key={index} className="text-white font-sans font-light">
                 <Link
                   href={link}
-                  className="focus:text-secondary focus:font-semibold hover:text-secondary hover:font-semibold"
+                  className="focus:text-secondary focus:font-semibold active:text-secondary  active:font-semibold hover:text-secondary hover:font-semibold"
                 >
                   {name}
                 </Link>
