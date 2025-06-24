@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
@@ -12,7 +13,9 @@ const HeroPage = () => {
       <div
         className="header w-full h-[100px] bg-cover bg-center absolute top-0 z-30 left-0"
         style={{ backgroundImage: `url('/images/navbar-bg.png')` }}
-      ></div>
+      >
+        <Header/>
+      </div>
       <div className="custom-gradient w-full h-screen absolute top-0 z-20 left-0"></div>
       <div className="hero-section w-full h-screen flex justify-center items-end absolute top-0 z-10 left-0">
         <div className="w-[90%] h-auto flex gap-4 items-center">
