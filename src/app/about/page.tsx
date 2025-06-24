@@ -17,7 +17,10 @@ const AboutPage = () => {
             explore the essence of authentic chai.
           </p>
           <div className="py-4 flex gap-3 items-center">
-           <div className="flex flex-col justify-center"></div>
+           <div className="flex w-auto h-auto flex-col justify-center items-center">
+<h3 className="text-6xl text-primary">50+</h3>
+<p className="text-secondary font-sans">Products</p>
+           </div>
           </div>
         </div>
         <div className="content w-1/2 flex h-auto justify-center items-end">
