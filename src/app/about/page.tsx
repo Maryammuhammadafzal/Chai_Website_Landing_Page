@@ -1,13 +1,14 @@
-import { Button } from "@/components/ui/button";
+"use client";
 import Image from "next/image";
 import React from "react";
+import CountUp from "react-countup";
 
 const AboutPage = () => {
   return (
     <div className="about-section w-full h-auto my-10 flex justify-center items-center">
       <div className="w-full h-auto flex gap-4 items-center">
         <div className="content w-1/2 flex flex-col gap-3 h-auto pl-25 justify-center">
-          <h1 className="text-8xl font-normal leading-28 text-primary">
+          <h1 className="text-8xl font-normal leading-24 text-primary">
             Tradition in Every Sip
           </h1>
           <p className="text-base max-w-xl font-normal text-primary font-sans">
@@ -16,11 +17,25 @@ const AboutPage = () => {
             hearts and creates stories. Join us on a flavorful journey and
             explore the essence of authentic chai.
           </p>
-          <div className="py-4 flex gap-3 items-center">
-           <div className="flex w-auto h-auto flex-col justify-center items-center">
-<h3 className="text-6xl text-primary">50+</h3>
-<p className="text-secondary font-sans">Products</p>
-           </div>
+          <div className="py-10 flex gap-12 items-center">
+            <div className="flex w-auto h-auto flex-col justify-center items-center">
+              <h3 className="text-6xl text-primary leading-12 text-center">
+                <CountUp end={50} duration={7} />+
+              </h3>
+              <p className="text-secondary font-sans">Products</p>
+            </div>
+            <div className="flex w-auto h-auto flex-col justify-center items-center">
+              <h3 className="text-6xl text-primary leading-12 text-center">
+                <CountUp end={1000} duration={3} />+
+              </h3>
+              <p className="text-secondary font-sans">Customers</p>
+            </div>
+            <div className="flex w-auto h-auto flex-col justify-center items-center">
+              <h3 className="text-6xl text-primary leading-12 text-center">
+                <CountUp end={5} duration={10} />+
+              </h3>
+              <p className="text-secondary font-sans">Franchises</p>
+            </div>
           </div>
         </div>
         <div className="content w-1/2 flex h-auto justify-center items-end">
