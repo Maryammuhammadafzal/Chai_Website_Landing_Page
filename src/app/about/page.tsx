@@ -4,9 +4,9 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="hero-section w-full h-screen flex justify-center items-end absolute top-0 z-10 left-0">
-      <div className="w-[90%] h-auto flex gap-4 items-end">
-        <div className="content w-1/2 flex flex-col gap-3 mb-20 h-auto pl-5 justify-center">
+    <div className="about-section w-full h-auto my-10 flex justify-center items-center">
+      <div className="w-full h-auto flex gap-4 items-center">
+        <div className="content w-1/2 flex flex-col gap-3 h-auto pl-25 justify-center">
           <h1 className="text-8xl font-normal leading-28 text-primary">
             Tradition in Every Sip
           </h1>
