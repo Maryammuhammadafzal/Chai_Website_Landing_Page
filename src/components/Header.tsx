@@ -36,12 +36,12 @@ const Header = () => {
         </Link>
 
         <nav className="nav flex w-auto justify-center items-center h-auto">
-          <ul className="flex justify-center xl:gap-8 lg:gap-6 gap-3 items-center">
+          <ul className="flex justify-center xl:gap-10 lg:gap-7 gap-4 items-center">
             {nav_data.map(({ name, link }) => (
               <li className="text-white font-sans font-light">
                 <Link
                   href={link}
-                  className="focus:text-secondary focus:font-bold hover:text-secondary hover:font-bold"
+                  className="focus:text-secondary focus:font-semibold hover:text-secondary hover:font-semibold"
                 >
                   {name}
                 </Link>
