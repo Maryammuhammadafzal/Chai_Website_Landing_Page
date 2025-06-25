@@ -138,3 +138,6 @@ body {
     transparent 70%
   );
 }
+.bg {
+ background-position: 0% center;
+}

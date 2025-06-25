@@ -1,4 +1,5 @@
 import AboutPage from "./about/page";
+import BannerPage from "./banner/page";
 import CollectionPage from "./collection/page";
 import ExperiencePage from "./experience/page";
 
@@ -9,6 +10,7 @@ export default function Home() {
 <AboutPage/>
 <CollectionPage/>
 <ExperiencePage/>
+<BannerPage/>
     </div>
   );
 }
