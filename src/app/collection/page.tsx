@@ -7,12 +7,12 @@ const CollectionPage = () => {
   return (
     <div className="about-section w-full h-auto my-10 flex justify-center items-center">
       <div className="w-[90%] h-auto flex flex-col gap-10 items-center">
-        <div className="content w-full flex flex-col gap-3 h-auto pl-25 justify-center">
-          <h1 className="text-8xl font-normal leading-24 text-primary">
+        <div className="content w-full flex flex-col gap-3 relative h-auto justify-center">
+          <h1 className="text-8xl max-w-4xl font-normal leading-24 text-primary">
             Unveiling the Flavors of Tradition
           </h1>
-          <div className="absolute top-20 gap-6 right-0 flex w-[50%]">
-            <Image src="/images/icon.png" alt="icon" width={100} height={100} />
+          <div className="absolute top-20 gap-6 left-[38%] flex flex-row items-center w-[50%]">
+            <Image src="/images/icon.png" alt="icon" width={130} height={100} />
             <p className="text-base max-w-xl font-normal text-primary font-sans">
               From the aromatic spices of masala chai to the soothing comfort of
               green tea, we craft each cup with care to awaken your senses and
