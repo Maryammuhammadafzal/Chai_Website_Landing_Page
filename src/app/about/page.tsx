@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 const AboutPage = () => {
   return (
-    <div className="about-section 2xl:max-w-[1536px] w-full h-auto my-10 flex justify-center items-center">
+    <div className="about-section 2xl:mx-auto 2xl:max-w-[1536px] w-full h-auto my-10 flex justify-center items-center">
       <div className="w-full h-auto flex gap-4 items-center">
         <div className="content w-1/2 flex flex-col gap-3 h-auto pl-25 justify-center">
           <h1 className="text-8xl font-normal leading-24 text-primary">

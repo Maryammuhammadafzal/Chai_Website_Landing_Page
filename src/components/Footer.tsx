@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagramSquare, FaLinkedin, FaWhatsapp } from "react-ico
 import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className="w-full h-auto flex justify-center items-center pb-10 pt-20">
+    <div className="w-full h-auto flex justify-center 2xl:max-w-[1536px] 2xl:mx-auto items-center pb-10 pt-20">
       <div className="w-[90%] h-auto flex flex-col gap-3 justify-center items-center">
         <div className="heading w-full h-auto">
           <h2 className="text-primary text-8xl">Let’s Brew a Connection</h2>
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
           <div
-            className="footer-bg w-[40%] h-[450px] bg-center bg-cover"
+            className="footer-bg w-[40%] h-[450px] 2xl:bg-contain bg-no-repeat  bg-center bg-cover"
             style={{ backgroundImage: `url('/images/footer-image.png')` }}
           >
             {/* <Image
