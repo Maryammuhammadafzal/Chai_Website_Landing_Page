@@ -121,6 +121,10 @@
   }
 }
 
+@theme {
+  --breakpoint-xs : 30rem;
+  --breakpoint-2xs : 24rem;
+}
 
 html {
   scroll-behavior: smooth;

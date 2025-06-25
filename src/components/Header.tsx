@@ -27,7 +27,7 @@ const Header = () => {
   ];
   return (
     <div className="w-full h-full flex justify-center items-center">
-      <div className="h-auto lg:w-[90%] flex justify-between gap-3 items-center">
+      <div className="h-auto lg:w-[90%] w-full lg:px-0 px-3 flex justify-between gap-3 items-center">
         <Link href="/">
           <h2 className="text-3xl">
             <span className="text-white">Chai</span>{" "}
@@ -36,7 +36,7 @@ const Header = () => {
         </Link>
 
         <nav className="nav flex w-auto justify-center items-center h-auto">
-          <ul className="flex justify-center xl:gap-10 lg:gap-7 gap-4 items-center">
+          <ul className="md:flex hidden justify-center xl:gap-10 lg:gap-7 gap-5 items-center">
             {nav_data.map(({ name, link } , index) => (
               <li key={index} className="text-white font-sans font-light">
                 <Link
