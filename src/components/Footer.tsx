@@ -15,7 +15,7 @@ const Footer = () => {
               Got a question, a suggestion, or just want to say hello? We’d love
               to hear from you!
             </p>
-            <div className="info flex flex-col md:text-base text-sm py-3 gap-4 ">
+            <div className="info flex flex-col md:text-base text-xs 2xs:text-sm py-3 gap-4 ">
               <div className="flex gap-1">
                 <span className="text-primary font-sans font-bold">
                   📧 Email:
@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright w-full text-center pt-2 flex justify-center items-center">
-          <p className="md:text-base text-sm font-sans text-primary">
+          <p className="md:text-base text-xs 2xs:text-sm font-sans text-primary">
             © 2021 all copyright reserved. All Rights Reserved.
           </p>
         </div>

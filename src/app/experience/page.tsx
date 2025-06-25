@@ -31,7 +31,7 @@ const ExperiencePage = () => {
           <h1 className="xl:text-8xl lg:text-7xl sm:text-6xl xs:text-5xl text-4xl leading-12 xs:leading-14 md:leading-20 sm:leading-16 lg:leading-24 font-normal xl:leading-28 text-primary">
             The Chai Experience
           </h1>
-          <p className="text-base max-w-xl font-normal text-primary font-sans">
+          <p className="md:text-base text-sm max-w-xl font-normal text-primary font-sans">
             We believe in quality, sustainability, and authenticity. From
             sourcing ethically grown tea leaves to blending our spices with
             precision, we are committed to crafting chai that respects tradition
@@ -52,7 +52,7 @@ const ExperiencePage = () => {
                 className=""
               />
                 <h2 className="text-primary text-2xl">{title}</h2>
-                <p className="text-primary font-normal text-sm font-sans">{description}</p>
+                <p className="text-primary font-normal text-xs sm:text-sm font-sans">{description}</p>
             </div>
           ))}
         </div>
