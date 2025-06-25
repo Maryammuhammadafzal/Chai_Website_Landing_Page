@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import CountUp from "react-countup";
+
 
 const CollectionPage = () => {
   return (
@@ -20,15 +20,15 @@ const CollectionPage = () => {
             </p>
           </div>
         </div>
-        {/* <div className="content w-full flex h-auto justify-center items-end">
-          <Image
-            src="/images/hero-image.png"
-            alt="hero-image"
-            width={400}
-            height={400}
-            className="object-cover w-[90%]"
-          />
-        </div> */}
+        <div className="cards w-full flex h-auto justify-center items-center">
+          <div className="card w-[350px] h-[450px] rounded-[20px] relative flex justify-center items-center">
+            <Image src='/images/card-image1.png' alt="card-image" width={350} height={450} className="object-cover rounded-[20px] object-center w-full h-full" />
+            <div className="w-[280px] h-[80px] bg-primary text-center flex flex-col justify-center items-center absolute rounded-[10px] -bottom-7">
+              <h2 className="text-white text-2xl">Classic Masala Chai</h2>
+              <p className="flex gap-2 items-center justify-evenly w-full"><span className="text-xs text-secondary font-normal font-sans">Masala Flavour</span><hr className="border-dashed h-[1px] border-white w-[70px]" /> <span className="text-secondary text-xl font-normal">$100</span> </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
