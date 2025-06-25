@@ -47,7 +47,7 @@ const Footer = () => {
                 Follow us on social media and subscribe to our newsletter for
                 updates, offers, and chai inspiration.
               </p>
-               <div className="social-links text-secondary text-2xl flex gap-3">
+               <div className="social-links text-secondary text-2xl flex gap-4">
               <FaFacebook />
               <FaXTwitter />
               <FaLinkedin />
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
           <div
-            className="w-[40%] h-[450px] bg-center bg-cover"
+            className="footer-bg w-[40%] h-[450px] bg-center bg-cover"
             style={{ backgroundImage: `url('/images/footer-image.png')` }}
           >
             {/* <Image
@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright w-full text-center pt-2 flex justify-center items-center">
-          <p className="md:text-base text-sm font-sans">
+          <p className="md:text-base text-sm font-sans text-primary">
             © 2021 all copyright reserved. All Rights Reserved.
           </p>
         </div>

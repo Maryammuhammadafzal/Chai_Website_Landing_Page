@@ -3,9 +3,9 @@ import React from "react";
 
 const BannerPage = () => {
   return (
-    <div className="w-full h-[600px] flex justify-center items-center relative">
+    <div className="w-full h-[700px] flex justify-center items-center relative">
       <div
-        className="bg-center bg-cover w-full h-full"
+        className="bg bg-center bg-cover w-full h-full"
         style={{ backgroundImage: `url('/images/banner-image.png')` }}
       ></div>
       <Image

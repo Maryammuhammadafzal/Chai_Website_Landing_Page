@@ -25,7 +25,7 @@ const ExperiencePage = () => {
   ];
 
   return (
-    <div className="about-section w-full h-auto py-20 flex justify-center items-center">
+    <div className="about-section 2xl:max-w-[1536px] w-full h-auto py-20 flex justify-center items-center">
       <div className="w-[90%] h-auto flex flex-col gap-10 items-center">
         <div className="content w-full flex flex-col gap-3 h-auto justify-center">
           <h1 className="text-8xl max-w-4xl font-normal leading-24 text-primary">

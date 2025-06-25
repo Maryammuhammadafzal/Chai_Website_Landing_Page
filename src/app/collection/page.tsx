@@ -33,7 +33,7 @@ const CollectionPage = () => {
   ]
 
   return (
-    <div className="about-section w-full h-auto my-20 flex justify-center items-center">
+    <div className="about-section 2xl:max-w-[1536px] w-full h-auto my-20 flex justify-center items-center">
       <div className="w-[90%] h-auto flex flex-col gap-10 items-center">
         <div className="content w-full flex flex-col gap-3 relative h-auto justify-center">
           <h1 className="text-8xl max-w-4xl font-normal leading-24 text-primary">
@@ -54,7 +54,7 @@ const CollectionPage = () => {
             <Image src={image} alt="card-image" width={350} height={450} className="object-cover rounded-[20px] object-center w-full h-full" />
             <div className="w-[280px] h-[80px] bg-primary text-center flex flex-col justify-center items-center absolute rounded-[10px] -bottom-7">
               <h2 className="text-white text-2xl">{title}</h2>
-              <p className="flex gap-2 items-center justify-evenly w-full"><span className="text-xs text-secondary font-normal font-sans">{flavour}</span><hr className="border-dashed h-[1px] border-white w-[70px]" /> <span className="text-secondary text-xl font-normal">{price}</span> </p>
+              <p className="flex gap-2 items-center justify-evenly w-full"><span className="text-xs text-secondary font-normal font-sans">{flavour}</span><span className="border-dashed h-[1px] border-white w-[70px]" ></span> <span className="text-secondary text-xl font-normal">{price}</span> </p>
             </div>
           </div>
           ))}
