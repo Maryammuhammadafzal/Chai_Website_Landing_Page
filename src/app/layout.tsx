@@ -3,6 +3,7 @@ import { Poppins, Geist_Mono } from "next/font/google";
 // import localFont from "next/font/local";
 import "./globals.css";
 import HeroPage from './hero/page'
+import Footer from "@/components/Footer";
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
@@ -47,6 +48,7 @@ export default function RootLayout({
       >
         <HeroPage/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
