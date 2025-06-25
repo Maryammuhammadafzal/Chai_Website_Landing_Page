@@ -5,25 +5,27 @@ import React from "react";
 const ExperiencePage = () => {
   const experience_data = [
     {
-      image: "/images/card-image1.png",
-      title: "Classic Masala Chai",
-      description : ''
+      image: "/images/exp-image1.png",
+      title: "Join Our Community",
+      description:
+        "At [Your Brand Name], chai isn’t just a drink—it’s a lifestyle. Join our chai-loving community and share your stories, recipes, and moments with us.",
     },
     {
-      image: "/images/card-image1.png",
-      title: "Classic Masala Chai",
-      description : ''
+      image: "/images/exp-image2.png",
+      title: "Workshops & Tastings",
+      description:
+        "Discover the art of chai-making with our interactive workshops. Learn about the history, the science, and the magic behind each blend.",
     },
     {
-      image: "/images/card-image1.png",
-      title: "Classic Masala Chai",
-      description : ''
+      image: "/images/exp-image3.png",
+      title: "Sustainable Practices",
+      description:
+        "We care for the planet as much as we care for your chai. From eco-friendly packaging to fair trade sourcing, we’re brewing a better future, one cup at a time.",
     },
-  
   ];
 
   return (
-    <div className="about-section w-full h-auto my-20 flex justify-center items-center">
+    <div className="about-section w-full h-auto py-20 flex justify-center items-center">
       <div className="w-[90%] h-auto flex flex-col gap-10 items-center">
         <div className="content w-full flex flex-col gap-3 h-auto justify-center">
           <h1 className="text-8xl max-w-4xl font-normal leading-24 text-primary">
@@ -36,33 +38,21 @@ const ExperiencePage = () => {
             and delights your taste buds.
           </p>
         </div>
-        <div className="cards w-full h-auto max-w-6xl flex flex-wrap gap-32 justify-center items-center">
+        <div className="cards w-full h-auto flex flex-wrap gap-6 justify-evenly items-center">
           {experience_data.map(({ title, image, description }, index) => (
             <div
               key={index}
-              className={`card w-[350px] h-[450px] rounded-[20px] relative flex justify-center items-center ${
-                index % 2 !== 0 ? "mt-40" : "mt-0"
-              }`}
+              className={`card w-[330px] text-center gap-2 h-auto flex-col flex items-center`}
             >
               <Image
                 src={image}
                 alt="card-image"
-                width={350}
-                height={450}
-                className="object-cover rounded-[20px] object-center w-full h-full"
+                width={55}
+                height={55}
+                className=""
               />
-              <div className="w-[280px] h-[80px] bg-primary text-center flex flex-col justify-center items-center absolute rounded-[10px] -bottom-7">
-                <h2 className="text-white text-2xl">{title}</h2>
-                <p className="flex gap-2 items-center justify-evenly w-full">
-                  <span className="text-xs text-secondary font-normal font-sans">
-                    {flavour}
-                  </span>
-                  <hr className="border-dashed h-[1px] border-white w-[70px]" />{" "}
-                  <span className="text-secondary text-xl font-normal">
-                    {price}
-                  </span>{" "}
-                </p>
-              </div>
+                <h2 className="text-primary text-2xl">{title}</h2>
+                <p className="text-primary font-normal text-sm font-sans">{description}</p>
             </div>
           ))}
         </div>
