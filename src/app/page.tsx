@@ -1,5 +1,6 @@
 import AboutPage from "./about/page";
 import CollectionPage from "./collection/page";
+import ExperiencePage from "./experience/page";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="w-full h-auto overflow-hidden">
 <AboutPage/>
 <CollectionPage/>
+<ExperiencePage/>
     </div>
   );
 }
