@@ -3,31 +3,23 @@ import Image from "next/image";
 import React from "react";
 
 const ExperiencePage = () => {
-  const collections_data = [
+  const experience_data = [
     {
       image: "/images/card-image1.png",
       title: "Classic Masala Chai",
-      flavour: "Masala Flavour",
-      price: "$100",
+      description : ''
     },
     {
-      image: "/images/card-image2.png",
-      title: "Ginger Chai",
-      flavour: "Ginger Flavour",
-      price: "$100",
+      image: "/images/card-image1.png",
+      title: "Classic Masala Chai",
+      description : ''
     },
     {
-      image: "/images/card-image3.png",
-      title: "Cardamom Chai",
-      flavour: "cardamom Flavour",
-      price: "$100",
+      image: "/images/card-image1.png",
+      title: "Classic Masala Chai",
+      description : ''
     },
-    {
-      image: "/images/card-image4.png",
-      title: "Herbal Infusions",
-      flavour: "herbal Flavour",
-      price: "$100",
-    },
+  
   ];
 
   return (
@@ -45,7 +37,7 @@ const ExperiencePage = () => {
           </p>
         </div>
         <div className="cards w-full h-auto max-w-6xl flex flex-wrap gap-32 justify-center items-center">
-          {collections_data.map(({ title, image, price, flavour }, index) => (
+          {experience_data.map(({ title, image, description }, index) => (
             <div
               key={index}
               className={`card w-[350px] h-[450px] rounded-[20px] relative flex justify-center items-center ${
