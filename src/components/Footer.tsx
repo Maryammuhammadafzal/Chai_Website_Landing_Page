@@ -7,15 +7,15 @@ const Footer = () => {
     <div className="w-full h-auto flex justify-center 2xl:max-w-[1536px] 2xl:mx-auto items-center pb-10 pt-20">
       <div className="w-[90%] h-auto flex flex-col gap-3 justify-center items-center">
         <div className="heading w-full h-auto">
-          <h2 className="text-primary text-8xl">Let’s Brew a Connection</h2>
+          <h2 className="xl:text-8xl lg:text-7xl sm:text-6xl xs:text-5xl text-4xl leading-12 xs:leading-14 md:leading-20 sm:leading-16 lg:leading-24 font-normal xl:leading-28 text-primary">Let’s Brew a Connection</h2>
         </div>
-        <div className="flex gap-6 justify-between h-auto w-full items-start">
-          <div className="w-[60%] flex flex-col gap-6">
-            <p className="font-sans text-primary font-normal text-base">
+        <div className="flex flex-col sm:flex-row  gap-6 justify-between h-auto w-full items-start">
+          <div className="sm:w-[60%] w-full flex flex-col gap-6">
+            <p className="font-sans text-primary font-normal text-sm md:text-base">
               Got a question, a suggestion, or just want to say hello? We’d love
               to hear from you!
             </p>
-            <div className="info flex flex-col py-3 gap-4 ">
+            <div className="info flex flex-col md:text-base text-sm py-3 gap-4 ">
               <div className="flex gap-1">
                 <span className="text-primary font-sans font-bold">
                   📧 Email:
@@ -42,7 +42,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col gap-3">
-              <h2 className="text-primary text-5xl">Stay in Touch</h2>
+              <h2 className="text-primary text-4xl lg:text-5xl">Stay in Touch</h2>
               <p className="text-sm max-w-md text-primary font-sans">
                 Follow us on social media and subscribe to our newsletter for
                 updates, offers, and chai inspiration.
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
           <div
-            className="footer-bg w-[40%] h-[450px] 2xl:bg-contain bg-no-repeat  bg-center bg-cover"
+            className="footer-bg sm:w-[40%] w-full h-[450px] 2xl:bg-contain bg-no-repeat  bg-center bg-cover"
             style={{ backgroundImage: `url('/images/footer-image.png')` }}
           >
             {/* <Image

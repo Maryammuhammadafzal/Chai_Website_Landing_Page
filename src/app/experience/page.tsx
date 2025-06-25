@@ -28,7 +28,7 @@ const ExperiencePage = () => {
     <div className="about-section 2xl:max-w-[1536px] 2xl:mx-auto w-full h-auto py-20 flex justify-center items-center">
       <div className="w-[90%] h-auto flex flex-col gap-10 items-center">
         <div className="content w-full flex flex-col gap-3 h-auto justify-center">
-          <h1 className="text-8xl max-w-4xl font-normal leading-24 text-primary">
+          <h1 className="xl:text-8xl lg:text-7xl sm:text-6xl xs:text-5xl text-4xl leading-12 xs:leading-14 md:leading-20 sm:leading-16 lg:leading-24 font-normal xl:leading-28 text-primary">
             The Chai Experience
           </h1>
           <p className="text-base max-w-xl font-normal text-primary font-sans">

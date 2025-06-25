@@ -27,7 +27,7 @@ const BannerPage = () => {
           </p>
         </div>
         <div className="max-w-md flex  pl-20 flex-col gap-3">
-          <h2 className="text-white text-8xl">Signature Blends</h2>
+          <h2 className="text-white xl:text-8xl lg:text-7xl sm:text-6xl xs:text-5xl text-4xl leading-12 xs:leading-14 md:leading-20 sm:leading-16 lg:leading-24 font-normal xl:leading-28 ">Signature Blends</h2>
           <p className="text-white font-sans text-base">
             Behind every cup of our chai is a team of artisans who pour their
             heart and soul into creating the perfect brew. Our recipes are
